@@ -53,18 +53,21 @@ ul{
 .arrow-layout{
     font-size: 13px;
     vertical-align: middle;
+    margin: 2px;
 }
 
 .v-layout{
     color: green;
-    border-bottom: 2px green solid;
+    border: 2px green solid;
+    padding: 5px;
     border-radius: 50%;
     margin-right: 5px;
 }
 
 .x-layout{
     color: red;
-    border-bottom: 2px red solid;
+    border: 2px red solid;
+    padding: 5px;
     border-radius: 50%;
     margin-right: 5px;
 }
