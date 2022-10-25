@@ -39,6 +39,7 @@ button{
 }
 
 /* LIST STYLE */
+
 ul{
     list-style-type: none;
 }
@@ -50,6 +51,7 @@ ul{
 }
 
 /* MARKER STYLE */
+
 .arrow-layout{
     font-size: 13px;
     vertical-align: middle;
@@ -58,18 +60,20 @@ ul{
 
 .v-layout{
     color: green;
-    border: 2px green solid;
-    padding: 5px;
+    border: 1px green solid;
+    padding: 4px;
     border-radius: 50%;
     margin-right: 5px;
+    font-size: 10px;
 }
 
 .x-layout{
     color: red;
-    border: 2px red solid;
-    padding: 5px;
+    border: 1px red solid;
+    padding: 4px;
     border-radius: 50%;
     margin-right: 5px;
+    font-size: 10px;
 }
 
 
