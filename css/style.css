@@ -8,13 +8,69 @@
 /* UTILITIES */
 
 .conteiner {
-    width: 70%;
-    margin: 0 auto;
+    width: 50%;
+    margin: 35px auto;
+    background-color: white;
+    border-radius: 5px;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: grey;
+}
+
+button{
+    margin-left: 5px;
+    padding: 10px 13px;
+    border-radius: 7px;
+    border-width: 1px;
+    background-color: white;
+    color: #959595;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.selected{
+    background-color: dodgerblue;
+    border-style: none;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.inside-list li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.arrow-layout{
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.v-layout{
+    color: green;
+    border-bottom: 2px green solid;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.x-layout{
+    color: red;
+    border-bottom: 2px red solid;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.label{
+    color: white;
+    font-size: 11px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 2px;
 }
 
 /* HEADER */
@@ -36,4 +92,49 @@ h1{
     display: inline;
     font-weight: 900;
     vertical-align: middle;
+}
+
+/* MAIN */
+
+#adds-button{
+    padding: 10px 30px;
+    border-bottom: 2px solid;
+    border-color: grey;
+
+}
+
+#todo-list{
+    margin-top: 50px;
+    margin-left: 45px;
+}
+ 
+.inside-list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* STILI ETICHETTE */
+
+.blue-background{
+    background-color: dodgerblue;
+}
+
+.violet-background{
+    background-color: rgb(182, 79, 182);
+}
+
+.green-background{
+    background-color: rgb(128, 202, 128);
+}
+
+.orange-background{
+    background-color: rgb(245, 110, 61);
+}
+
+.lightgreen-background{
+    background-color: rgb(102, 226, 19);
+}
+
+.pink-background{
+    background-color: rgb(243, 29, 154);
 }
