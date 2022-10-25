@@ -19,6 +19,8 @@ body{
     background-color: grey;
 }
 
+/* BUTTON STYLE */
+
 button{
     margin-left: 5px;
     padding: 10px 13px;
@@ -36,6 +38,7 @@ button{
     color: white;
 }
 
+/* LIST STYLE */
 ul{
     list-style-type: none;
 }
@@ -46,6 +49,7 @@ ul{
     font-size: 20px;
 }
 
+/* MARKER STYLE */
 .arrow-layout{
     font-size: 13px;
     vertical-align: middle;
@@ -65,13 +69,7 @@ ul{
     margin-right: 5px;
 }
 
-.label{
-    color: white;
-    font-size: 11px;
-    border-radius: 10px;
-    padding: 5px 10px;
-    margin-left: 2px;
-}
+
 
 /* HEADER */
 
@@ -113,7 +111,15 @@ h1{
     margin-bottom: 20px;
 }
 
-/* STILI ETICHETTE */
+/* LABEL STYLE */
+
+.label{
+    color: white;
+    font-size: 11px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 2px;
+}
 
 .blue-background{
     background-color: dodgerblue;
